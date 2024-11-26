@@ -1,29 +1,27 @@
-let scr=document.querySelector("input");
-let eql=document.querySelector(".eql");
-let key=document.querySelectorAll(".calval");
-let clear=document.querySelector(".clear");
+let usernameinput=document.querySelector("#usernameinput");
+let passwordinput=document.querySelector("#passwordinput");
+let btn=document.querySelector("button");
+let result=document.querySelector("h5");
 
-function solve(){ 
-
-        let x = scr.value;
-        try {
-            let y = math.evaluate(x); // Corrected to use math.evaluate
-            scr.value = y; // Set the input value to the result
-        } catch (error) {
-            scr.value = "Error"; // Handle invalid input
+let Username="KAD18";
+let Password="KAD123";
+btn.addEventListener("click",()=>{
+    let tempusername=usernameinput.value;
+    if(Username===tempusername){
+        let temppassword=passwordinput.value;
+        if(temppassword===Password){
+            result.classList.remove("hide");
+            result.innerText="Logined successfully";
         }
-   
-}
-eql.addEventListener("click",()=>{
-   solve();
+        else{
+            result.classList.remove("hide");
+            result.innerText="Invalid Username or password";
+        }
+    }
+    else{
+        result.classList.remove("hide");
+        result.innerText="Invalid Username or password";
+    }
 });
-key.forEach((n)=>{
-    n.addEventListener("click",()=>{
-        
-        scr.value+=n.id;
-   
-    })
-});
-clear.addEventListener("click",()=>{
-    scr.value="";
-});
+
+
