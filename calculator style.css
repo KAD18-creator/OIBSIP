@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    height: 16%;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(26, 24, 24);
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 380px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+  
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.scr{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #33658A;
+}
+input{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    font-size: 3rem;
+
+}
+.icon{
+    color: rgb(42, 251, 0);
+    background-color: rgba(26, 24, 24, 0.6);
+}
+.eql{
+    background-color: rgb(42, 251, 0);;
+    font-size: 3rem;
+}
+.clear{
+    color: rgb(178, 82, 82);
+}
+button:active{
+    opacity: 0.5;
+}
