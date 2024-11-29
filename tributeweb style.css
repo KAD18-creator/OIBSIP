@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    text-align: center;
+
+}
+h1{
+    margin-top: 1rem;
+    color: blue;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(14, 243, 255), 0 0 5px rgb(0, 67, 212);
+}
+img{
+    margin-top: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.info{
+    margin-top: 20px;
+    width: 95%;
+    font-size: 20px;
+}
+.timeline{
+    width: 95%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.timeline h2{
+    color: #0090C1;
+    text-shadow:  0 0 25px #38AECC, 0 0 2px blue;
+}
+ul{
+    font-size: 1.3rem;
+    width: 95%;
+    margin-top: 10px;
+}
+ul li{
+    margin-top: 5px;
+}
+.work{
+    width: 95%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.work h2{
+    width: 95%;
+    color: #21897E;
+    text-shadow:  0 0 25px #69D1C5, 0 0 2px blue;
+    text-align: center;
+    height: 50px;
+    border-bottom: 2px solid #8f1c2f;
+}
+.work ul{
+    color: #EEBA0B;
+    font-weight: bold;
+}
+.quote{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quote h2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #0090C1 ;
+    margin-top: 2rem;
+}
+.quote p{
+    width: 100%;
+    height: 100px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border: 4px solid #69D1C5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    box-sizing: border-box;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 2px solid #8f1c2f;
+}
+.lightmode{
+    background-color: white;
+    color: black;
+
+}
+button{
+    width: 300px;
+    height: 40px;
+}
+.footer h4{
+text-decoration: underline;
+}
